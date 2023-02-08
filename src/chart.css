@@ -1,0 +1,40 @@
+.area{
+    border-radius: 20px;
+    display: flex;
+    background-color: #f4f4f4;
+    position: relative;
+    padding: 20px;
+    width: 800px;
+    }
+    .chartItemLogo{
+    object-fit: fill;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+    }
+    .chartItemWrapper{
+    position: absolute;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    transition: all 1s ease;
+    }
+    .chartItem{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #fefefe;
+    border-radius: 5px;
+    height: 30px;
+    transition: all 1s ease;
+    }
+    .chartItemRightText{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
